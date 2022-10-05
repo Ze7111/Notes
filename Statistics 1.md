@@ -33,11 +33,11 @@ The help predictions to be made | The model may only work in certain situations
 ```mermaid
 graph TD;
     A[Types of Data] --> B[Quantitative - Numerical Data];
-    A --> C[Qualitative - Non-numerical Data];
     B --> D[Discrete Data - Specific values in a range];
-    C --> E[Continuous Data - Any values in a range];
     D --> F[Examples include: number of students in a class, number of cars in a car park];
+    B --> E[Continuous Data - Any values in a range];
     E --> G[Examples include: height of a person, weight of a person];
+    A --> C[Qualitative - Non-numerical Data];
     C --> H[Examples include favourite colour, favourite food];
 ```
 ### 2.1 Types of Data

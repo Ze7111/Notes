@@ -28,6 +28,7 @@ The help predictions to be made | The model may only work in certain situations
 
 #
 ## Chapter 2: Measures of Location and Spread
+### 2.1 Types of Data
 - We collect in statistics. Variables associated with non-numerical data are called `qulatiative variables`. Variables associated with numerical data are called `quantitative variables`.
 - The flow chart below shows the process of collecting data:
 ```mermaid
@@ -40,8 +41,28 @@ graph TD;
     A --> C[Qualitative - Non-numerical Data];
     C --> H[Examples include favourite colour, favourite food];
 ```
-### 2.1 Types of Data
+- Floating point numbers are used to represent continuous data. They are numbers that have a decimal point in them.
+- They can not be used to represent discrete data as they are not whole numbers.
+- Large ammounts of data can be represented using a `frequency table`. This is a table that shows the number of times a value occurs in a set of data.
+- Sample Frequency Table:
+  
+Shoe Size(x) | Number of Students(f)
+--- | --- 
+39 | 3 
+40 | 17
+41 | 29
+42 | 34
+43 | 12
+
+- `The groups of data are called classes`. The `class midpoints` are the `midpoints` of the classes.
+- To find the class midpoints, add the upper and lower limits of the class and divide by 2.
+$$ \text{Class Midpoint} = \frac{\text{Upper Limit} + \text{Lower Limit}}{2} $$
+- The `class boundaries` are the `upper and lower limits` of the classes.
+- To find the class boundaries, add the class midpoint to the class width and divide by 2.
+$$ \text{Class Boundary} = \text{Class Midpoint} \pm \frac{\text{Class Width}}{2} $$
+
 ### 2.2 Measures of Central Tendency
+- A `measure of location` is a single value which describes
 ### 2.3 Other Measures of Location
 ### 2.4 Measures of Spread
 ### 2.5 Variance and Standard Deviation

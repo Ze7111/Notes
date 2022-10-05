@@ -32,13 +32,13 @@ The help predictions to be made | The model may only work in certain situations
 - The flow chart below shows the process of collecting data:
 ```mermaid
 graph TD;
-    id1(Types of Data) --> id1(Quantitative (Numerical Data));
-    id1(Types of Data) --> id1(Qualitative (Non-numerical Data));
-    id1(Quantitative (Numerical Data)) --> id1(Discrete Data (Specific values in a range));
-    id1(Quantitative (Numerical Data)) --> id1(Continuous Data (Any values in a range));
-    id1(Discrete Data (Specific values in a range)) --> id1(Examples include: number of students in a class, number of cars in a car park);
-    id1(Continuous Data (Any values in a range)) --> id1(Examples include: height of a person, weight of a person);
-    id1(Qualitative (Non-numerical Data)) --> id1(Examples include favourite colour, favourite food);
+    A[Types of Data] --> B[Quantitative (Numerical Data)];
+    A --> C[Qualitative (Non-numerical Data)];
+    B --> D[Discrete Data (Specific values in a range)];
+    C --> E[Continuous Data (Any values in a range)];
+    D --> F[Examples include: number of students in a class, number of cars in a car park];
+    E --> G[Examples include: height of a person, weight of a person];
+    C --> H[Examples include favourite colour, favourite fo]od;
 ```
 ### 2.1 Types of Data
 ### 2.2 Measures of Central Tendency

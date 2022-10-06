@@ -320,14 +320,155 @@ $$y = \frac {x - a} {b}$$
 #
 ## Chapter 4: Probability
 ### 4.1 Understanding The Vocabulary used in Probability
+- `Probability` is the `likelihood` of an `event` occuring.
+  - An `experiment` is a process that can have more than one outcome.
+  - An `event` is a particular outcome of an experiment.
+  - A `sample space` is the se` of all possible outcomes.
+- Where outcomes are `equally likely` the `probability` of an event occuring is:
+  $$\text{probability} = \frac {\text{number of favourable outcomes}} {\text{number of possible outcomes}}$$
+
 ### 4.2 Venn Diagrams
+- A `Venn Diagram` is a diagram used to show the `relationship` between `sets`.
+- A `rectangle`, $\Omega$, is used to represent the `sample space`.
+- A `circle` is used to represent a `set`.
+- The `intersection` of two sets is the `common elements` of the sets.
+- The `union` of two sets is the `combined elements` of the sets.
+- The `complement` of a set is the `elements` that are `not` in the set.
+- The `complement` of a set is represented by a `circle` with a `line` through it.
+- The `complement` of a set is the `sample space` minus the set.
+- The `complement` of a set is represented by a `circle` with a `line` through it.
+
+- The following Venn Diagram has the following:
+  - an smaple space (The rectangle)
+  - an set A (The circle)
+  - an set B (The circle)
+  - and intersection of A and B (The intersection of the two circles)
+
+
+- To calcualte P(A) we use this formula:
+  $$P(A) = \frac {\text{A}} {\text{n}}$$
+
+- To calcualte P(B) we use this formula:
+  $$P(B) = \frac {\text{B}} {\text{n}}$$
+
+- To calcualte P(A $\cap$ B) we use this formula:
+  $$P(A \cap B) = P(A) × P(B)$$
+  - Where the $\cap$ symbol means `intersection`.
+
+- To calcualte P(A $\cup$ B) we use this formula:
+  $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
+  - Where the $\cup$ symbol means `union`.
+
+- To calcualte P(A') we use this formula:
+  $$P(A') = 1 - P(A)$$
+  - Where the ' symbol means `complement`.
+
+- To calcualte P(A $\cup$ B') we use this formula:
+  $$P(A \cup B') = P(A) + P(B') - P(A \cap B')$$
+  - Where the $\cup$ symbol means `union`.
+  - Where the ' symbol means `complement`.
+
+- To calcualte P(A $\cap$ B') we use this formula:
+  $$P(A \cap B') = P(A) - P(A \cap B)$$
+  - Where the $\cap$ symbol means `intersection`.
+  - Where the ' symbol means `complement`.
+
+- To calcualte P(A | B) we use this formula:
+  $$P(A | B) = \frac {P(A \cap B)} {P(B)}$$
+  - Where the | symbol means `given`.
+
+- To calcualte P(A | B') we use this formula:
+  $$P(A | B') = \frac {P(A \cap B')} {P(B')}$$
+  - Where the | symbol means `given`.
+  - Where the ' symbol means `complement`.
+
 ### 4.3 Mutually Exclusive and Independent Events
+- `Mutually Exclusive` events are events that cannot occur at the same time.
+- `Independent` events are events that do not affect each other.
+- `Mutually Exclusive` and `Independent` events are `disjoint` events.
+- `Mutually Exclusive` and `Independent` events are represented by a `Venn Diagram` with a `line` through the `intersection` of the two sets.
+- `Mutually Exclusive` and `Independent` events are represented by a `Venn Diagram` with a `line` through the `intersection` of the two sets.
+
 ### 4.4 Set Notation
+- `Set Notation` is a way of writing sets.
+- The `empty set` is represented by $\emptyset$.
+- The `universal set` is represented by $\Omega$.
+
 ### 4.5 Conditional Probability
+- Conditional probability is the probability of an event occuring given that another event has already occured.
+- The formula for conditional probability is:
+  $$P(A | B) = \frac {P(A \cap B)} {P(B)}$$
+  - Where the | symbol means `given`.
+  - Where the $\cap$ symbol means `intersection`.
+
 ### 4.6 Conditional Probability in Venn Diagrams
+- Conditional Probability in Venn Diagrams is the probability of an event occuring given that another event has already occured.'
+- It is represented by a `Venn Diagram` with a `line` through the `intersection` of the two sets.
+- It works by using the formula:
+  $$P(A | B) = \frac {P(A \cap B)} {P(B)}$$
+  - Where the | symbol means `given`.
+  - Where the $\cap$ symbol means `intersection`.
+
 ### 4.7 Probability Formulae
+- We have coverd these in the end of chapter 4.
+  
 ### 4.8 Tree Diagrams
+- A `Tree Diagram` is a diagram used to show the `relationship` between `sets`.
+- A Tree Diagram is used to show the `probability` of an `event` occuring.
+- It looks like a `tree` with `branches` and `leaves`.
+- This is a tree diagram with 3 branches and 2 leaves:
+```text
+    a
+   / \
+  a   b
+ / \
+a   b
+```
+- To calculate the probability of a happening 2 times in a row we use this formula:
+  $$\text{P(a twice)} = P(A) × P(A)$$
+
+- To calculate the probability of a happening 3 times in a row we use this formula:
+  $$\text{P(a thrice)} = P(A) × P(A) × P(A)$$
+
+- To calculate the probability of a happening 0 times in a row we use this formula:
+  $$\text{P(a 0 times)} = P(A') × P(A')$$
+
+- To calculate the probability of a happening and then b happening we use this formula:
+  $$\text{P(a then b)} = P(A) × P(B)$$
+
+- To calculate the probability of a happening and then b happening and then c happening we use this formula:
+  $$\text{P(a then b then c)} = P(A) × P(B) × P(C)$$
+
 ### Chapter 4 Summary
+#### Probability Formulae
+- `Tree Diagrams`
+  $$\text{P(a twice)} = P(A) × P(A)$$
+  $$\text{P(a thrice)} = P(A) × P(A) × P(A)$$
+  $$\text{P(a 0 times)} = P(A') × P(A')$$
+  $$\text{P(a then b)} = P(A) × P(B)$$
+  $$\text{P(a then b then c)} = P(A) × P(B) × P(C)$$
+
+- `Venn Diagrams`
+  $$P(A) = \frac {\text{A}} {\text{n}}$$
+  $$P(B) = \frac {\text{B}} {\text{n}}$$
+  $$P(A \cap B) = P(A) × P(B)$$
+  $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
+  $$P(A') = 1 - P(A)$$
+  $$P(A \cup B') = P(A) + P(B') - P(A \cap B')$$
+  $$P(A \cap B') = P(A) - P(A \cap B)$$
+  $$P(A | B) = \frac {P(A \cap B)} {P(B)}$$
+  $$P(A | B') = \frac {P(A \cap B')} {P(B')}$$
+- Where the | symbol means `given`.
+- Where the $\cap$ symbol means `intersection`.
+- Where the ' symbol means `complement`.
+- Where the $\cup$ symbol means `union`.
+
+- `Mutually Exclusive` and `Independent` events are represented by a `Venn Diagram` with a `line` through the `intersection` of the two sets.
+
+- `Conditional Probability` is the probability of an event occuring given that another event has already occured.
+
+- `Conditional Probability` in `Venn Diagrams` is represented by a `Venn Diagram` with a `line` through the `intersection` of the two sets.
+
 
 #
 ## Chapter 5: Correlation and Regression

@@ -60,7 +60,7 @@ A `measure of location` is a single value which describes a set of data. It is u
 - Combining Means
   - If two sets of data have the same number of values, the mean of the combined set of data is calculated by adding the means of the two sets of data and dividing by 
   $$\bar{x} = \frac {n_1 \bar{x_1} + n_2 \bar{x_2}} 2 $$
-  
+   
 - You can calcualte the mean and median for discrete data from the frequency table. The formula for the mean is:
 $$\bar{x} = \frac{\sum_{xf}} {\sum_{f}}$$
 - The formula for the median is:

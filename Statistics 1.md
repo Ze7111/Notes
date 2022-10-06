@@ -59,18 +59,18 @@ A `measure of location` is a single value which describes a set of data. It is u
     - The `mode` is the `most frequent` value in a set of data. It is calculated by finding the value which occurs most often in a set of data.
 - Combining Means
   - If two sets of data have the same number of values, the mean of the combined set of data is calculated by adding the means of the two sets of data and dividing by 2.
+<<<<<<< HEAD
+  $$\bar{x} = \frac {n_1 \bar{x_1} + n_2 \bar{x_2}} 2 $$
+=======
   $
   \bar{x} = \frac {n_1 \bar{x_1} + n_2 \bar{x_2}} 2
   $
+>>>>>>> 290a8ca4ce60e4b8529b8bd2f9b6d6ad2eda4605
 
 - You can calcualte the mean and median for discrete data from the frequency table. The formula for the mean is:
-$$
-\bar{x} = \frac{\sum_{xf}} {\sum_{f}}
-$$
+$$\bar{x} = \frac{\sum_{xf}} {\sum_{f}}$$
 - The formula for the median is:
-$$
-\frac{\sum_{xf}} 2
-$$
+$$\frac{\sum_{xf}} 2$$
 
 ### 2.3 Other Measures of Location
 - The medain describes the middle of the data set. It splits the data into two halfs. You can calculate the other `Measures of Location` such as the `quartiles` and `percentiles`.
@@ -99,58 +99,38 @@ graph TD;
   - `Range`
     - The `range` is the `difference` between the `largest` and `smallest` values in a set of data.
     - The formula for the range is:
-    $$
-    R = x_{max} - x_{min}
-    $$
+    $$R = x_{max} - x_{min}$$
   - `Interquartile Range`
     - The `interquartile range` is the `difference` between the `upper quartile` and the `lower quartile`.
     - The formula for the interquartile range is:
-    $$
-    IQR = Q_3 - Q_1
-    $$
+    $$IQR = Q_3 - Q_1$$
   - `Interpercentile Range`
     - The `interpercentile range` is the `difference` between the `upper percentile` and the `lower percentile`.
     - The formula for the interpercentile range is:
-    $$
-    IPR = P_3 - P_1
-    $$
+    $$IPR = P_3 - P_1$$
 
 ### 2.5 Variance and Standard Deviation
 - The `variance` is a measure of spread which describes how spread out the data is. It is calculated by finding the `mean` of the `squared differences` between each value and the `mean` of the data set.'
 - The formula for the variance is:
-$$
-\sigma^2 = \frac{\sum_{(x - \bar{x})^2}} n
-$$
+$$\sigma^2 = \frac{\sum_{(x - \bar{x})^2}} n$$
 - An other simpiler way to calculate the variance is:
-$$
-\sigma^2 = \frac {\sum_{x^2}}{n} - (\frac {\sum_{x}}{n})^2
-$$
+$$\sigma^2 = \frac {\sum_{x^2}}{n} - (\frac {\sum_{x}}{n})^2$$
 - The `standard deviation` is a measure of spread which describes how spread out the data is. It is calculated by taking the `square root` of the `variance`.
 - The formula for the standard deviation is:
-$$
-\sigma = \sqrt{\frac{\sum_{(x - \bar{x})^2}} n}
-$$
+$$\sigma = \sqrt{\frac{\sum_{(x - \bar{x})^2}} n}$$
 - A simpiler way to calculate the standard deviation is:
-$$
-\sigma = \sqrt{\frac {\sum_{x^2}}{n} - (\frac {\sum_{x}}{n})^2}
-$$
+$$\sigma = \sqrt{\frac {\sum_{x^2}}{n} - (\frac {\sum_{x}}{n})^2}$$
 
 ### 2.6 Coding
 - The `coding` of data is the process of converting qualitative data into numerical data. This is done so values are easier to work with
 - The formula for coding is:
-$$
-y = \frac {x - a} {b}
-$$
+$$y = \frac {x - a} {b}$$
 
 - If data is coded using the formula above, the `mean` of the data is 0 and the `standard deviation` is 1.
   - To calculate the mean of the data, use the formula:
-  $$
-  \bar{y} = \frac {\bar{x} - a} b
-  $$
+  $$\bar{y} = \frac {\bar{x} - a} b$$
   - To calculate the standard deviation of the data, use the formula:
-  $$
-  \sigma_y = \frac {\sigma_x} b
-  $$
+  $$\sigma_y = \frac {\sigma_x} b$$
   - Where $\bar{y}$ is the mean of the coded data, $\bar{x}$ is the mean of the original data, $\sigma_y$ is the standard deviation of the coded data, $\sigma_x$ is the standard deviation of the original data, $a$ is the lowest value in the original data and $b$ is the difference between the highest and lowest values in the original data.
 
 ### Chapter 2 Summary
@@ -168,15 +148,11 @@ $$
 
 - The `standard deviation` is a measure of spread which describes how spread out the data is. It is calculated by taking the `square root` of the `variance`.
   - The simple formula for $\sigma$ is:
-  $$
-  \sigma = \sqrt{\frac {\sum_{x^2}}{n} - (\frac {\sum_{x}}{n})^2}
-  $$
+  $$\sigma = \sqrt{\frac {\sum_{x^2}}{n} - (\frac {\sum_{x}}{n})^2}$$
 
 - The `coding` of data is the process of converting qualitative data into numerical data. This is done so values are easier to work with.
   - The formula for this is:
-  $$
-  y = \frac {x - a} {b}
-  $$
+  $$y = \frac {x - a} {b}$$
   - Where $y$ is the coded value, $x$ is the original value, $a$ is the lowest value in the original data and $b$ is the difference between the highest and lowest values in the original data.
 
 ## Chapter 3: Representations of Data

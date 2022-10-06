@@ -473,6 +473,23 @@ a   b
 #
 ## Chapter 5: Correlation and Regression
 ### 5.1 Scatter Diagrams
+- A `Scatter Diagram` is a diagram used to show the `relationship` between `sets`.
+- `Bivariate Data` is data that has two variables.
+- You can represent `Bivariate Data` in a `Scatter Diagram`.
+
+- Correlation is a measure of how closely two variables are related.
+- Correlation is represented by the symbol `r`.
+- Correlation is a number between -1 and 1.
+- Correlation trends in a scatter plot:
+  - if the x and y values are both increasing, the correlation is `positive`.
+  - if the x and y values are both decreasing, the correlation is `negative`.
+  - if the x and y values are `increasing` and `decreasing`, the correlation is 0.
+  - if the x and y values are `not` related, the correlation is 0.
+  - if the x and y values are related, the correlation is `not` 0.
+
+- An `independent variable` is a variable that is `independent` of another variable. and it is plotted on the `x-axis`.
+- A `dependent variable` is a variable that is `dependent` on another variable. and it is plotted on the `y-axis`.
+
 ### 5.2 Linear Regression
 ### 5.3 Calculating Least Squares Linear Regression
 ### 5.4 The Product Moment Correlation Coefficient

@@ -58,15 +58,9 @@ A `measure of location` is a single value which describes a set of data. It is u
   - `Mode`
     - The `mode` is the `most frequent` value in a set of data. It is calculated by finding the value which occurs most often in a set of data.
 - Combining Means
-  - If two sets of data have the same number of values, the mean of the combined set of data is calculated by adding the means of the two sets of data and dividing by 2.
-<<<<<<< HEAD
+  - If two sets of data have the same number of values, the mean of the combined set of data is calculated by adding the means of the two sets of data and dividing by 
   $$\bar{x} = \frac {n_1 \bar{x_1} + n_2 \bar{x_2}} 2 $$
-=======
-  $
-  \bar{x} = \frac {n_1 \bar{x_1} + n_2 \bar{x_2}} 2
-  $
->>>>>>> 290a8ca4ce60e4b8529b8bd2f9b6d6ad2eda4605
-
+  
 - You can calcualte the mean and median for discrete data from the frequency table. The formula for the mean is:
 $$\bar{x} = \frac{\sum_{xf}} {\sum_{f}}$$
 - The formula for the median is:

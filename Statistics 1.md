@@ -52,18 +52,16 @@ A `measure of location` is a single value which describes a set of data. It is u
   - `Mean`
     - The `mean` is the `average` of a set of data. It is calculated by adding all the values in a set of data and dividing by the number of values in the set.
     - Formula for the mean is:
-    $$
-    \bar{x} = \frac{\sum_{} x}{n}
-    $$
+    $$\bar{x} = \frac{\sum_{} x}{n}$$
   - `Median`
     - The `median` is the `middle` value in a set of data. It is calculated by arranging the data in order of size and finding the middle value.
   - `Mode`
     - The `mode` is the `most frequent` value in a set of data. It is calculated by finding the value which occurs most often in a set of data.
 - Combining Means
   - If two sets of data have the same number of values, the mean of the combined set of data is calculated by adding the means of the two sets of data and dividing by 2.
-  $$
+  $
   \bar{x} = \frac {n_1 \bar{x_1} + n_2 \bar{x_2}} 2
-  $$
+  $
 
 - You can calcualte the mean and median for discrete data from the frequency table. The formula for the mean is:
 $$

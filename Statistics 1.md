@@ -32,6 +32,7 @@
     - [4.7 Probability Formulae](#47-probability-formulae)
     - [4.8 Tree Diagrams](#48-tree-diagrams)
     - [Chapter 4 Summary](#chapter-4-summary)
+      - [Probability Formulae](#probability-formulae)
   - [Chapter 5: Correlation and Regression](#chapter-5-correlation-and-regression)
     - [5.1 Scatter Diagrams](#51-scatter-diagrams)
     - [5.2 Linear Regression](#52-linear-regression)

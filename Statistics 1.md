@@ -492,7 +492,37 @@ a   b
 - A `dependent variable` is a variable that is `dependent` on another variable. and it is plotted on the `y-axis`.
 
 ### 5.2 Linear Regression
+- When a scatter diagram shows correlation, we can use `linear regression` to find the `best fit` line.
+- One type of line of best fit, is the `least squares regression line`.
+- `Least squares regression line`:
+  - The regression line of $y$ on $x$ is written as $y = a + bx$.
+
+  - The cofficents $a$ and $b$ are found by:
+    $$b = \frac {\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})} {\sum_{i=1}^{n} (x_i - \bar{x})^2}$$
+    $$a = \bar{y} - b \bar{x}$$
+
+  - If the data has a `posotive correlation`, $b$ wil be posotive
+  
+  - If the data has a `negative correlation`, $b$ wil be negative
+
+  - If the data has a `no correlation`, $b$ wil be 0
+
+- If you know the value of the `independent variable` from a bivariate data set, you can use the `least squares regression line` to find the `dependent variable`.
+  - You should only use the `least squares regression line` to make predictions for values within the range of the `given data`.
+
 ### 5.3 Calculating Least Squares Linear Regression
+- `Least squares regression` is always in the form of $y = a + bx$
+- The least squares regression line is the line that minimises the `sum of the squares of the residuals`.
+  - The `residuals` are the `vertical distances` between the `data points` and the `least squares regression line`.
+  
+- The equation to find regression line og y on x is:
+  - $y = a + bs$
+  
+  - Where $a = \bar{y} - b \bar{x}$ and $b = \frac {S_{xy}} {S_{xx}}$.
+
+
+
+
 ### 5.4 The Product Moment Correlation Coefficient
 ### Chapter 5 Summary
 
